@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "taoyuan": {
+      "command": "npx",
+      "args": ["-y", "taoyuan-mcp"],
+      "env": { "TAOYUAN_API_KEY": "ty_live_…" }
+    }
+  }
+}

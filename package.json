@@ -1,0 +1,42 @@
+{
+  "name": "taoyuan-mcp",
+  "version": "1.1.1",
+  "description": "Taoyuan MCP server: write an original song for one person — lyrics, two full versions and cover art in about a minute. stdio proxy for https://api.musicsforyou.com/mcp",
+  "type": "module",
+  "bin": {
+    "taoyuan-mcp": "bin.mjs"
+  },
+  "files": [
+    "bin.mjs",
+    "README.md"
+  ],
+  "license": "MIT",
+  "mcpName": "io.github.JerryYangAI/taoyuan-mcp",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JerryYangAI/taoyuan-mcp.git"
+  },
+  "homepage": "https://www.musicsforyou.com/developers",
+  "bugs": {
+    "email": "2368082693@qq.com"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "music",
+    "song",
+    "songwriting",
+    "ai-music",
+    "music-generation",
+    "claude",
+    "chatgpt",
+    "taoyuan"
+  ]
+}
