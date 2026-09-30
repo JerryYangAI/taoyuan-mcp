@@ -44,6 +44,8 @@ claude mcp add --transport http taoyuan https://api.musicsforyou.com/mcp \
   --header "Authorization: Bearer ty_live_…"
 ```
 
+**Cursor (one click)** — [Add to Cursor](https://www.musicsforyou.com/developers?lang=en#quickstart) from the developers page, or `mcp.json` in this repo (OAuth sign-in on first use).
+
 **claude.ai connectors / ChatGPT** — add the URL `https://api.musicsforyou.com/mcp`; OAuth sign-in is built in, no key needed.
 
 **REST** — one call, finished song back:

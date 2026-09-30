@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "taoyuan": {
+      "url": "https://api.musicsforyou.com/mcp"
+    }
+  }
+}

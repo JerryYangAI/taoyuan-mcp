@@ -1,0 +1,12 @@
+{
+  "name": "taoyuan-music",
+  "description": "Write an original song for one person: lyrics, two full versions and cover art in about a minute. OAuth sign-in, 3 free credits.",
+  "version": "1.1.1",
+  "author": { "name": "Taoyuan", "email": "2368082693@qq.com" },
+  "homepage": "https://www.musicsforyou.com/developers?lang=en",
+  "repository": "https://github.com/JerryYangAI/taoyuan-mcp",
+  "license": "MIT",
+  "keywords": ["music", "song", "songwriting", "audio", "lyrics", "creative"],
+  "logo": "assets/icon.png",
+  "mcpServers": "./mcp.json"
+}

@@ -1,14 +1,20 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.JerryYangAI/taoyuan-mcp",
   "title": "Taoyuan Music",
-  "description": "Write an original song for one person: describe who it is for, get lyrics, two full versions and cover art in about a minute. OAuth or API key, 3 free credits.",
+  "description": "Write an original song for one person: lyrics, two full versions and cover art in about a minute.",
+  "websiteUrl": "https://www.musicsforyou.com/developers?lang=en",
   "repository": {
     "url": "https://github.com/JerryYangAI/taoyuan-mcp",
     "source": "github"
   },
-  "websiteUrl": "https://www.musicsforyou.com/developers",
   "version": "1.1.1",
+  "icons": [
+    { "src": "https://www.musicsforyou.com/icon-512.png", "mimeType": "image/png", "sizes": ["512x512"] }
+  ],
+  "remotes": [
+    { "type": "streamable-http", "url": "https://api.musicsforyou.com/mcp" }
+  ],
   "packages": [
     {
       "registryType": "npm",
@@ -25,12 +31,6 @@
           "format": "string"
         }
       ]
-    }
-  ],
-  "remotes": [
-    {
-      "type": "streamable-http",
-      "url": "https://api.musicsforyou.com/mcp"
     }
   ]
 }
