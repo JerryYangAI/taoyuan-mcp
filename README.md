@@ -105,6 +105,6 @@ Songs you generate are yours to use, including commercially on the paid plans. [
 - claude.ai / ChatGPT 连接器：填 `https://api.musicsforyou.com/mcp`，内置 OAuth 登录
 - 扣子 / Dify：导入 `https://api.musicsforyou.com/openapi-coze.json`
 
-API Key 在 https://www.musicsforyou.com/developers 创建，新 Key 送 3 次。生成 1 次扣 1 个额度（两个版本），编译与修改免费。额度包：10 次 ¥30 起，支持微信、支付宝、银行卡。
+API Key 在 https://www.musicsforyou.com/developers 创建，新 Key 送 3 次。生成 1 次扣 1 个额度（两个版本），编译与修改免费。额度包：10 次 US$9.9、50 次 US$39、100 次 ¥300，支持微信、支付宝、银行卡。
 
 License: MIT
